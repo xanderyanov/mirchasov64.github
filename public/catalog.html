@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+
+<!--[if IEMobile 7 ]>
+<html class="iem7" lang="ru"> <![endif]-->
+<!--[if (gt IEMobile 7)|!(IEMobile)]><!-->
+<html lang="ru">
+<!--<![endif]-->
+
+<head>
+  <title>[[*seotitle]] Главная</title>
+  <meta name="keywords" content="[[*seokeywords]]" />
+  <meta name="description" content="[[*seodescription]]" />
+
+  <!--[[*noindex:isequalto=`yes`:then=`<meta name="robots" content="noindex" />`]]-->
+
+  <!--<base href="[[!++site_url]]" />-->
+  <!--<meta charset="[[++modx_charset]]" />-->
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="imagetoolbar" content="no">
+  <meta name="msthemecompatible" content="no">
+
+  <meta name="format-detection" content="telephone=no">
+  <meta name="format-detection" content="address=no">
+  <meta name="theme-color" content="#ffffff">
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="apple-touch-icon-precomposed" href="assets/img/apple/h/apple-touch-icon.png">
+  <link rel="apple-touch-icon-precomposed" href="assets/img/apple/m/apple-touch-icon.png">
+  <link rel="apple-touch-icon-precomposed" href="assets/img/apple/l/apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="assets/img/apple/l/apple-touch-icon.png">
+
+  <link rel="shortcut icon" href="assets/img/favicon.ico">
+
+  <meta property="og:url" content="[[*template:in=`1`:then=`[[~[[*id]]]]`:else=`[[++site_url]][[~[[*id]]]]`]]" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="[[!*seotitle:isnot=``:then=`[[*seotitle]]`:else=`[[*pagetitle]]`]]" />
+  <meta property="og:description" content="[[*seodescription]]" />
+  <meta property="og:image" content="[[++assets_url]]img/og-img.jpg" />
+
+  <link rel="stylesheet" href="assets/css/apps.css" />
+
+</head>
+
+<body>
+
+  <div class="site__header">
+    <div class="header__area">
+      <header class="header">
+        <div class="logo1">
+          <a href="#">
+            <img src="assets/img/logo1.png" alt="Мир часов">
+          </a>
+          <span>Подарите близким свое время</span>
+        </div>
+        <div class="header__cont">
+          <a href="tel:+79179888833" class="header__contItem">
+            <i class="icon-old-telephone"></i>
+            <span>+7 917 988 88 33</span>
+          </a>
+          <div class="header__contBtn">Заказать звонок</div>
+        </div>
+      </header>
+    </div>
+    <div class="navLine__area">
+      <div class="navLine">
+        <div class="menuButton">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <nav class="topMenu__area topMenu__area_adaptive">
+          <div class="closeBtn">
+            <i class="icon-close"></i>
+          </div>
+          <ul class="topMenu">
+            <li><a href="#">Главная</a></li>
+            <li class="active"><a href="#">Каталог</a></li>
+            <li><a href="#">Как заказать</a></li>
+            <li><a href="#">Доставка</a></li>
+            <li><a href="#">Акции и скидки</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+        </nav>
+        <!--<div class="navLine__rightArea">-->
+        <div class="cart1__area">
+          <a href="#">
+            <i class="icon-shopping-cart-black-shape"></i>
+            <span>3</span>
+          </a>
+        </div>
+        <div class="header__ssOuter">
+          <div class="header__ss">
+            <form class="form-search" action="search-results/" method="get">
+              <div class="inputs-group">
+                <input type="text" name="search" id="search" class="search-input" placeholder="Поиск по сайту...">
+                <input type="hidden" name="id" value="8">
+                <button type="submit" class="search-submit">
+                  <i class="icon-search"></i>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <!--</div>-->
+      </div>
+    </div>
+  </div>
+
+  <div class="site__center functionHeight">
+    <div class="dubleSide__area">
+      <div class="dubleSide">
+        <div class="navSide">
+          <div class="smartSearch__area">
+            <div class="smartSearch__title"><span>Умный поиск</span></div>
+            <div class="smartSearch">
+
+            </div>
+          </div>
+
+          <nav class="leftMenu__area">
+            <ul class="leftMenu">
+              <li><a href="#">Anne Klein</a></li>
+              <li><a href="#">Danish Design</a></li>
+              <li><a href="#">Diesel</a></li>
+              <li><a href="#">DKNY</a></li>
+              <li><a href="#">Essence</a></li>
+              <li class="active"><a href="#">Fossil</a></li>
+              <li><a href="#">Guess</a></li>
+              <li><a href="#">Jacques Lemans</a></li>
+              <li><a href="#">Morgan</a></li>
+              <li><a href="#">Skagen</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="mainSide">
+          <div class="breadcrumbs__area">
+            <div class="breadcrumbs">
+              <div><a href="#">Главная</a></div>
+              /
+              <div><a href="#">Категория</a></div>
+              /
+              <div><span>Текущий пункт</span></div>
+            </div>
+          </div>
+          <div class="catalogTitle">
+            <h1>Casio</h1>
+            <span>(Япония)</span>
+          </div>
+          <div class="catalog">
+            <div class="catalog__itemOuter">
+              <div class="catalog__item">
+                <div class="action__icon">
+                  <i class="icon-new-product"></i>
+                  <i class="icon-percentage"></i>
+                  <i class="icon-sale-badge"></i>
+                </div>
+
+                <a href="#" class="cardTovar__link">
+                <span class="cardTovar__img">
+                  <img src="assets/img/tovar/01.jpg" alt="1">
+                </span>
+                  <span class="cardTovar__title">DZ7400 Diesel наручные</span>
+                </a>
+                <span class="cardTovar__price">29915 Р</span>
+                <a href="#" class="cardTovar__buy">Купить</a>
+              </div>
+            </div>
+            <div class="catalog__itemOuter">
+              <div class="catalog__item">
+                <a href="#" class="cardTovar__link">
+                <span class="cardTovar__img">
+                  <img src="assets/img/tovar/01.jpg" alt="1">
+                </span>
+                  <span class="cardTovar__title">DZ7400 Diesel наручные</span>
+                </a>
+                <span class="cardTovar__price">29915 Р</span>
+                <a href="#" class="cardTovar__buy">Купить</a>
+              </div>
+            </div>
+            <div class="catalog__itemOuter">
+              <div class="catalog__item">
+                <a href="#" class="cardTovar__link">
+                <span class="cardTovar__img">
+                  <img src="assets/img/tovar/01.jpg" alt="1">
+                </span>
+                  <span class="cardTovar__title">DZ7400 Diesel наручные</span>
+                </a>
+                <span class="cardTovar__price">29915 Р</span>
+                <a href="#" class="cardTovar__buy">Купить</a>
+              </div>
+            </div>
+            <div class="catalog__itemOuter">
+              <div class="catalog__item">
+                <a href="#" class="cardTovar__link">
+                <span class="cardTovar__img">
+                  <img src="assets/img/tovar/01.jpg" alt="1">
+                </span>
+                  <span class="cardTovar__title">DZ7400 Diesel наручные</span>
+                </a>
+                <span class="cardTovar__price">29915 Р</span>
+                <a href="#" class="cardTovar__buy">Купить</a>
+              </div>
+            </div>
+            <div class="catalog__itemOuter">
+              <div class="catalog__item">
+                <a href="#" class="cardTovar__link">
+                <span class="cardTovar__img">
+                  <img src="assets/img/tovar/01.jpg" alt="1">
+                </span>
+                  <span class="cardTovar__title">DZ7400 Diesel наручные</span>
+                </a>
+                <span class="cardTovar__price">29915 Р</span>
+                <a href="#" class="cardTovar__buy">Купить</a>
+              </div>
+            </div>
+            <div class="catalog__itemOuter">
+              <div class="catalog__item">
+                <a href="#" class="cardTovar__link">
+                <span class="cardTovar__img">
+                  <img src="assets/img/tovar/01.jpg" alt="1">
+                </span>
+                  <span class="cardTovar__title">DZ7400 Diesel наручные</span>
+                </a>
+                <span class="cardTovar__price">29915 Р</span>
+                <a href="#" class="cardTovar__buy">Купить</a>
+              </div>
+            </div>
+            <div class="catalog__itemOuter">
+              <div class="catalog__item">
+                <a href="#" class="cardTovar__link">
+                <span class="cardTovar__img">
+                  <img src="assets/img/tovar/01.jpg" alt="1">
+                </span>
+                  <span class="cardTovar__title">DZ7400 Diesel наручные</span>
+                </a>
+                <span class="cardTovar__price">29915 Р</span>
+                <a href="#" class="cardTovar__buy">Купить</a>
+              </div>
+            </div>
+            <div class="catalog__itemOuter">
+              <div class="catalog__item">
+                <a href="#" class="cardTovar__link">
+                <span class="cardTovar__img">
+                  <img src="assets/img/tovar/01.jpg" alt="1">
+                </span>
+                  <span class="cardTovar__title">DZ7400 Diesel наручные</span>
+                </a>
+                <span class="cardTovar__price">29915 Р</span>
+                <a href="#" class="cardTovar__buy">Купить</a>
+              </div>
+            </div>
+            <div class="catalog__itemOuter">
+              <div class="catalog__item">
+                <a href="#" class="cardTovar__link">
+                <span class="cardTovar__img">
+                  <img src="assets/img/tovar/01.jpg" alt="1">
+                </span>
+                  <span class="cardTovar__title">DZ7400 Diesel наручные</span>
+                </a>
+                <span class="cardTovar__price">29915 Р</span>
+                <a href="#" class="cardTovar__buy">Купить</a>
+              </div>
+            </div>
+            <div class="catalog__itemOuter">
+              <div class="catalog__item">
+                <a href="#" class="cardTovar__link">
+                <span class="cardTovar__img">
+                  <img src="assets/img/tovar/01.jpg" alt="1">
+                </span>
+                  <span class="cardTovar__title">DZ7400 Diesel наручные</span>
+                </a>
+                <span class="cardTovar__price">29915 Р</span>
+                <a href="#" class="cardTovar__buy">Купить</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="catalog__content">
+            <div class="content">
+              <p>Приветствуем Вас на нашем официальном сайте! У нас Вы найдете часы практически для любых целей. Хотите ли
+                Вы купить часы себе или в подарок, сеть магазинов «Мир часов» в Саратове и Энгельсе всегда предоставит
+                отличный выбор! Мы предлагаем нашим покупателям часы известных марок производства России, Швейцарии,
+                Франции, Германии, Японии. </p>
+              <p>В нашей сети представлены часы известных и проверенных брендов: Casio (Япония), Orient (япония), Anne
+                Klein
+                (США), Fossil (США), COVER (Швейцария), Romanson (Швейцария), Спутник (Россия) и многие другие. </p>
+              <p>В наших магазинах вы найдете часы на разные случаи - от классических элитных до современных спортивных,
+                есть огромный выбор мужских, женских и детских часов. Часы для повседневного ношения и для активного
+                образа
+                жизни. Помимо наруынх часов у нас широко представлены настенные часы, которые смогут украсить любой
+                интерьер
+                или станут отличным подарком Вашим близким и друзьям.</p>
+              <p>Подарите себе и близким отличный и незаменимый аксессуар! Ждем Вас в наших магазинах.</p>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+  <div class="site__footer">
+    <div class="footer__area">
+      <footer class="footer">
+        <div class="f1">
+          <div class="tm1">Сеть магазинов «МИР ЧАСОВ» 2001-2019</div>
+          <div class="tm2">ИП Скисов И.Ю.</div>
+          <div class="oferta__footer">*Информация на сайте не является публичной офертой</div>
+          <a href="#" class="policy__footer" target="_blank">Политика конфиденциальности</a>
+          <div class="dev">Разработка сайта: <a href="https://site-a.ru" target="_blank">веб-студия "Сайт-А"</a></div>
+        </div>
+        <div class="f2">
+          <nav class="footerMenu">
+            <ul>
+              <li><a href="#">Главная</a></li>
+              <li class="active"><a href="#">Каталог</a></li>
+              <li><a href="#">Как заказать</a></li>
+              <li><a href="#">Доставка</a></li>
+              <li><a href="#">Акции и скидки</a></li>
+              <li><a href="#">Контакты</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="f3">
+          <div class="social">
+            <a href="#"><i class="icon-bold-text"></i></a>
+            <a href="#"><i class="icon-instagram1"></i></a>
+            <a href="#"><i class="icon-odnoklassniki-logo"></i></a>
+            <a href="#"><i class="icon-facebook-logo"></i></a>
+          </div>
+        </div>
+        <div class="f4">
+          <a href="tel:+79179888833" class="footer__contItem">
+            <i class="icon-old-telephone"></i>
+            <span>+7 917 988 88 33</span>
+          </a>
+          <a href="mailto:world_clock@list.ru" class="footer__contItem">
+            <i class="icon-email2"></i>
+            <span>world_clock@list.ru</span>
+          </a>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <div class="toTop"><i class="icon-upload"></i></div>
+
+  <!-- <div class="mask">
+    <div id="loader"></div>
+  </div> -->
+
+  <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.js"></script>
+  <script src="node_modules/swiper/dist/js/swiper.min.js"></script>
+  <script src="node_modules/jquery.maskedinput/src/jquery.maskedinput.js"></script>
+  <script src="node_modules/sweetalert/dist/sweetalert.min.js"></script>
+  <!-- <script src="node_modules/instafeed.js/instafeed.min.js"></script> -->
+
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

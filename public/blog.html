@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+
+<!--[if IEMobile 7 ]>
+<html class="iem7" lang="ru"> <![endif]-->
+<!--[if (gt IEMobile 7)|!(IEMobile)]><!-->
+<html lang="ru">
+<!--<![endif]-->
+
+<head>
+  <title>[[*seotitle]] Главная</title>
+  <meta name="keywords" content="[[*seokeywords]]" />
+  <meta name="description" content="[[*seodescription]]" />
+
+  <!--[[*noindex:isequalto=`yes`:then=`<meta name="robots" content="noindex" />`]]-->
+
+  <!--<base href="[[!++site_url]]" />-->
+  <!--<meta charset="[[++modx_charset]]" />-->
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="imagetoolbar" content="no">
+  <meta name="msthemecompatible" content="no">
+
+  <meta name="format-detection" content="telephone=no">
+  <meta name="format-detection" content="address=no">
+  <meta name="theme-color" content="#ffffff">
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="apple-touch-icon-precomposed" href="assets/img/apple/h/apple-touch-icon.png">
+  <link rel="apple-touch-icon-precomposed" href="assets/img/apple/m/apple-touch-icon.png">
+  <link rel="apple-touch-icon-precomposed" href="assets/img/apple/l/apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="assets/img/apple/l/apple-touch-icon.png">
+
+  <link rel="shortcut icon" href="assets/img/favicon.ico">
+
+  <meta property="og:url" content="[[*template:in=`1`:then=`[[~[[*id]]]]`:else=`[[++site_url]][[~[[*id]]]]`]]" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="[[!*seotitle:isnot=``:then=`[[*seotitle]]`:else=`[[*pagetitle]]`]]" />
+  <meta property="og:description" content="[[*seodescription]]" />
+  <meta property="og:image" content="[[++assets_url]]img/og-img.jpg" />
+
+  <link rel="stylesheet" href="assets/css/apps.css" />
+
+</head>
+
+<body>
+
+  <div class="site__header">
+    <div class="header__area">
+      <header class="header">
+        <div class="logo1">
+          <a href="#">
+            <img src="assets/img/logo1.png" alt="Мир часов">
+          </a>
+          <span>Подарите близким свое время</span>
+        </div>
+        <div class="header__cont">
+          <a href="tel:+79179888833" class="header__contItem">
+            <i class="icon-old-telephone"></i>
+            <span>+7 917 988 88 33</span>
+          </a>
+          <div class="header__contBtn">Заказать звонок</div>
+        </div>
+      </header>
+    </div>
+    <div class="navLine__area">
+      <div class="navLine">
+        <div class="menuButton">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <nav class="topMenu__area topMenu__area_adaptive">
+          <div class="closeBtn">
+            <i class="icon-close"></i>
+          </div>
+          <ul class="topMenu">
+            <li><a href="#">Главная</a></li>
+            <li class="active"><a href="#">Каталог</a></li>
+            <li><a href="#">Как заказать</a></li>
+            <li><a href="#">Доставка</a></li>
+            <li><a href="#">Акции и скидки</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+        </nav>
+        <!--<div class="navLine__rightArea">-->
+        <div class="cart1__area">
+          <a href="#">
+            <i class="icon-shopping-cart-black-shape"></i>
+            <span>3</span>
+          </a>
+        </div>
+        <div class="header__ssOuter">
+          <div class="header__ss">
+            <form class="form-search" action="search-results/" method="get">
+              <div class="inputs-group">
+                <input type="text" name="search" id="search" class="search-input" placeholder="Поиск по сайту...">
+                <input type="hidden" name="id" value="8">
+                <button type="submit" class="search-submit">
+                  <i class="icon-search"></i>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <!--</div>-->
+      </div>
+    </div>
+  </div>
+
+  <div class="site__center">
+    <div class="pageBox__area">
+      <div class="pageBox">
+        <div class="breadcrumbs__area">
+          <div class="breadcrumbs">
+            <div><a href="#">Главная</a></div>
+            /
+            <div><a href="#">Категория</a></div>
+            /
+            <div><span>Текущий пункт</span></div>
+          </div>
+        </div>
+        <div class="pageBox__title">
+          <h1>Новости мира часов</h1>
+        </div>
+        <div class="blog__area">
+          <div class="blog__outer">
+            <div class="blog blog__masonry">
+              <div class="blog__itemOuter">
+                <a href="#" class="blogItem">
+                  <div class="blogItem__img">
+                    <img src="assets/img/blog/01.jpg" alt="">
+                  </div>
+                  <span class="blogItem__text">
+                    Новая статья про известный бренд, который мы начали продавать в сетим магазинов «Мир часов». Конечно
+                    это Casio G-SHOK...
+                  </span>
+                </a>
+              </div>
+              <div class="blog__itemOuter">
+                <a href="#" class="blogItem">
+                  <div class="blogItem__img">
+                    <img src="assets/img/blog/02.jpg" alt="">
+                  </div>
+                  <span class="blogItem__text">
+                    Новая статья про известный бренд, который мы начали продавать в сетим магазинов «Мир часов». Конечно
+                    это Casio G-SHOK...
+                  </span>
+                </a>
+              </div>
+              <div class="blog__itemOuter">
+                <a href="#" class="blogItem">
+                  <div class="blogItem__img">
+                    <img src="assets/img/blog/03.jpg" alt="">
+                  </div>
+                  <span class="blogItem__text">
+                    Новая статья про известный бренд, который мы начали продавать в сетим магазинов «Мир часов». Конечно
+                    это Casio G-SHOK...
+                  </span>
+                </a>
+              </div>
+              <div class="blog__itemOuter">
+                <a href="#" class="blogItem">
+                  <div class="blogItem__img">
+                    <img src="assets/img/blog/01.jpg" alt="">
+                  </div>
+                  <span class="blogItem__text">
+                    Новая статья про известный бренд, который мы начали продавать в сетим магазинов «Мир часов». Конечно
+                    это Casio G-SHOK Новая статья про известный бренд, который мы начали продавать в сетим магазинов
+                    «Мир часов». Конечно
+                    это Casio G-SHOK
+                  </span>
+                </a>
+              </div>
+              <div class="blog__itemOuter">
+                <a href="#" class="blogItem">
+                  <div class="blogItem__img">
+                    <img src="assets/img/blog/01.jpg" alt="">
+                  </div>
+                  <span class="blogItem__text">
+                    Новая статья про известный бренд, который мы начали продавать в сетим магазинов «Мир часов». Конечно
+                    это Casio G-SHOK...
+                  </span>
+                </a>
+              </div>
+              <div class="blog__itemOuter">
+                <a href="#" class="blogItem">
+                  <div class="blogItem__img">
+                    <img src="assets/img/blog/02.jpg" alt="">
+                  </div>
+                  <span class="blogItem__text">
+                    Новая статья про известный бренд, который мы начали продавать в сетим магазинов «Мир часов». Конечно
+                    это Casio G-SHOK...
+                  </span>
+                </a>
+              </div>
+              <div class="blog__itemOuter">
+                <a href="#" class="blogItem">
+                  <div class="blogItem__img">
+                    <img src="assets/img/blog/03.jpg" alt="">
+                  </div>
+                  <span class="blogItem__text">
+                    Новая статья про известный бренд, который мы начали продавать в сетим магазинов «Мир часов». Конечно
+                    это Casio G-SHOK...
+                  </span>
+                </a>
+              </div>
+              <div class="blog__itemOuter">
+                <a href="#" class="blogItem">
+                  <div class="blogItem__img">
+                    <img src="assets/img/blog/01.jpg" alt="">
+                  </div>
+                  <span class="blogItem__text">
+                    Новая статья про известный бренд, который мы начали продавать в сетим магазинов «Мир часов». Конечно
+                    это Casio G-SHOK Новая статья про известный бренд, который мы начали продавать в сетим магазинов
+                    «Мир часов». Конечно
+                    это Casio G-SHOK
+                  </span>
+                </a>
+              </div>
+              <div class="blog__itemOuter">
+                <a href="#" class="blogItem">
+                  <div class="blogItem__img">
+                    <img src="assets/img/blog/01.jpg" alt="">
+                  </div>
+                  <span class="blogItem__text">
+                    Новая статья про известный бренд, который мы начали продавать в сетим магазинов «Мир часов». Конечно
+                    это Casio G-SHOK...
+                  </span>
+                </a>
+              </div>
+              <div class="blog__itemOuter">
+                <a href="#" class="blogItem">
+                  <div class="blogItem__img">
+                    <img src="assets/img/blog/02.jpg" alt="">
+                  </div>
+                  <span class="blogItem__text">
+                    Новая статья про известный бренд, который мы начали продавать в сетим магазинов «Мир часов». Конечно
+                    это Casio G-SHOK...
+                  </span>
+                </a>
+              </div>
+              <div class="blog__itemOuter">
+                <a href="#" class="blogItem">
+                  <div class="blogItem__img">
+                    <img src="assets/img/blog/03.jpg" alt="">
+                  </div>
+                  <span class="blogItem__text">
+                    Новая статья про известный бренд, который мы начали продавать в сетим магазинов «Мир часов». Конечно
+                    это Casio G-SHOK...
+                  </span>
+                </a>
+              </div>
+              <div class="blog__itemOuter">
+                <a href="#" class="blogItem">
+                  <div class="blogItem__img">
+                    <img src="assets/img/blog/01.jpg" alt="">
+                  </div>
+                  <span class="blogItem__text">
+                    Новая статья про известный бренд, который мы начали продавать в сетим магазинов «Мир часов». Конечно
+                    это Casio G-SHOK Новая статья про известный бренд, который мы начали продавать в сетим магазинов
+                    «Мир часов». Конечно
+                    это Casio G-SHOK
+                  </span>
+                </a>
+              </div>
+              <div class="blog__itemOuter">
+                <a href="#" class="blogItem">
+                  <div class="blogItem__img">
+                    <img src="assets/img/blog/01.jpg" alt="">
+                  </div>
+                  <span class="blogItem__text">
+                    Новая статья про известный бренд, который мы начали продавать в сетим магазинов «Мир часов». Конечно
+                    это Casio G-SHOK...
+                  </span>
+                </a>
+              </div>
+              <div class="blog__itemOuter">
+                <a href="#" class="blogItem">
+                  <div class="blogItem__img">
+                    <img src="assets/img/blog/02.jpg" alt="">
+                  </div>
+                  <span class="blogItem__text">
+                    Новая статья про известный бренд, который мы начали продавать в сетим магазинов «Мир часов». Конечно
+                    это Casio G-SHOK...
+                  </span>
+                </a>
+              </div>
+              <div class="blog__itemOuter">
+                <a href="#" class="blogItem">
+                  <div class="blogItem__img">
+                    <img src="assets/img/blog/03.jpg" alt="">
+                  </div>
+                  <span class="blogItem__text">
+                    Новая статья про известный бренд, который мы начали продавать в сетим магазинов «Мир часов». Конечно
+                    это Casio G-SHOK...
+                  </span>
+                </a>
+              </div>
+              <div class="blog__itemOuter">
+                <a href="#" class="blogItem">
+                  <div class="blogItem__img">
+                    <img src="assets/img/blog/01.jpg" alt="">
+                  </div>
+                  <span class="blogItem__text">
+                    Новая статья про известный бренд, который мы начали продавать в сетим магазинов «Мир часов». Конечно
+                    это Casio G-SHOK Новая статья про известный бренд, который мы начали продавать в сетим магазинов
+                    «Мир часов». Конечно
+                    это Casio G-SHOK
+                  </span>
+                </a>
+              </div>
+            </div>
+
+            <div class="pagin">
+              <ul class="pagination">
+                <li class="control"><a href="#">&#9668;</a></li>
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li class="active"><a href="#">3</a></li>
+                <li><a href="#">44</a></li>
+                <li><a href="#">5</a></li>
+                <li class="control"><a href="#">&#9658;</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+
+  <div class="site__footer">
+    <div class="footer__area">
+      <footer class="footer">
+        <div class="f1">
+          <div class="tm1">Сеть магазинов «МИР ЧАСОВ» 2001-2019</div>
+          <div class="tm2">ИП Скисов И.Ю.</div>
+          <div class="oferta__footer">*Информация на сайте не является публичной офертой</div>
+          <a href="#" class="policy__footer" target="_blank">Политика конфиденциальности</a>
+          <div class="dev">Разработка сайта: <a href="https://site-a.ru" target="_blank">веб-студия "Сайт-А"</a></div>
+        </div>
+        <div class="f2">
+          <nav class="footerMenu">
+            <ul>
+              <li><a href="#">Главная</a></li>
+              <li class="active"><a href="#">Каталог</a></li>
+              <li><a href="#">Как заказать</a></li>
+              <li><a href="#">Доставка</a></li>
+              <li><a href="#">Акции и скидки</a></li>
+              <li><a href="#">Контакты</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="f3">
+          <div class="social">
+            <a href="#"><i class="icon-bold-text"></i></a>
+            <a href="#"><i class="icon-instagram1"></i></a>
+            <a href="#"><i class="icon-odnoklassniki-logo"></i></a>
+            <a href="#"><i class="icon-facebook-logo"></i></a>
+          </div>
+        </div>
+        <div class="f4">
+          <a href="tel:+79179888833" class="footer__contItem">
+            <i class="icon-old-telephone"></i>
+            <span>+7 917 988 88 33</span>
+          </a>
+          <a href="mailto:world_clock@list.ru" class="footer__contItem">
+            <i class="icon-email2"></i>
+            <span>world_clock@list.ru</span>
+          </a>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <div class="toTop"><i class="icon-upload"></i></div>
+
+  <!-- <div class="mask">
+    <div id="loader"></div>
+  </div> -->
+
+  <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.js"></script>
+  <script src="node_modules/swiper/dist/js/swiper.min.js"></script>
+  <script src="node_modules/jquery.maskedinput/src/jquery.maskedinput.js"></script>
+  <script src="node_modules/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="node_modules/masonry-layout/dist/masonry.pkgd.min.js"></script>
+  <!-- <script src="node_modules/instafeed.js/instafeed.min.js"></script> -->
+
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

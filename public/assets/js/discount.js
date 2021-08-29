@@ -1,0 +1,2 @@
+$(document).ready(function(){$(".form_dkinfo .button-panel button").click(function(){var t=$(this).parents(".form_dkinfo"),e=t.find("input").val(),a=t.find(".result");a.removeClass("error").addClass("load").text(),$.ajax({url:"/discount/",type:"POST",data:"phone="+e,success:function(t){t=jQuery.parseJSON(t);a.removeClass("load").html(t.text),1!=t.result&&a.addClass("error")}})})});
+//# sourceMappingURL=discount.js.map
