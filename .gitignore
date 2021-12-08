@@ -1,5 +1,6 @@
 .vscode/
 node_modules/
 build/
+public/
 src/assets/video/
 package-lock.json
